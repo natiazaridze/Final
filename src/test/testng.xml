@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="8" parallel="tests">
+    <test name="TestSuit1" parallel="tests">
+        <classes>
+            <class name="TheNorthFace.RegTest" />
+        </classes>
+    </test>
+    <test name="TestSuit2" parallel="tests">
+        <classes>
+            <class name="TheNorthFace.LogTest" />
+        </classes>
+    </test>
+    <test name="TestSuit3" parallel="tests">
+        <classes>
+            <class name="TheNorthFace.HomeTest" />
+        </classes>
+    </test>
+    <!--    <test name="TestSuit2" parallel="tests">-->
+    <!--        <classes>-->
+    <!--            <class name="SecondTest" />-->
+    <!--        </classes>-->
+    <!--    </test>-->
+</suite>
